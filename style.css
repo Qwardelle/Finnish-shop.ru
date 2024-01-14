@@ -64,6 +64,11 @@ main {
 main div {
   display: flex;
   flex-wrap: wrap;
+  /* flex-shrink: 2; */
+}
+
+main div .card {
+  flex-grow: 1;
 }
 
 footer {
@@ -95,7 +100,11 @@ body {
   margin: 5px;
   padding: 1px;
   background-color: #f7f7f7;
-
   border-radius: 10px;
   text-align: center;
+}
+
+.card img {
+  height: 100%;
+  width: 100%;
 }
