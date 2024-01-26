@@ -62,17 +62,22 @@ main {
   border-radius: 20px;
 }
 
+/* ТУТ КАКАЯ-ТО ХУЙНЯ  */
+
 main div {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  /* grid-template-rows: repeat(auto, 100px); */
   /* flex-shrink: 2; */
 }
 
-main div .card {
-  /* flex-grow: 1; */
-  /* flex-shrink: 0; */
-  flex-basis: 1;
-}
+/* ТУТ КАКАЯ-ТО ХУЙНЯ */
+
+/* main div .card {
+  flex-grow: 1; */
+/* flex-shrink: 0; */
+/* flex-basis: 1;
+} */
 
 footer {
   grid-area: footer;
@@ -95,11 +100,12 @@ body {
 } */
 
 .card {
-  width: 176px;
-  height: 234px;
+  /* width: 176px; */
+  /* height: 200px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* flex-grow: 1; */
   margin: 5px;
   padding: 1px;
   background-color: #f7f7f7;
