@@ -102,6 +102,7 @@ body {
 .card {
   /* width: 176px; */
   /* height: 200px; */
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -111,9 +112,24 @@ body {
   background-color: #f7f7f7;
   border-radius: 10px;
   text-align: center;
+  overflow: hidden;
+  /* display: inline-block; */
 }
 
 .card img {
   height: 100%;
   width: 100%;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.card text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+}
+
+.card img:hover {
+  transform: scale(1.2);
 }
