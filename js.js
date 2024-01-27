@@ -1,5 +1,5 @@
 const text = document.querySelector(".textA");
 
 text.onclick = function textOnOff() {
-  console.log("1");
+  text.style.display = "none";
 };
