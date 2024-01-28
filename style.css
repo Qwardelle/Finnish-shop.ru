@@ -30,7 +30,7 @@ aside {
   margin-bottom: 10px;
   display: flex;
   flex-wrap: wrap;
-  padding-left: 20px;
+  padding-left: 0px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 20px;
@@ -94,7 +94,7 @@ body {
     "aside main"
     "footer footer";
   grid-template-rows: 100px auto 100px;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 230px 1fr;
 }
 
 /* article img {
@@ -142,3 +142,36 @@ aside a::after {
 aside a::before {
   display: block;
 } */
+
+/* li {
+  display: block;
+  margin: 0;
+  padding: 0;
+} */
+
+.unordList {
+  margin: 0 0 0 15px;
+  padding: 0;
+}
+
+.unordList > li > ul {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
+li > a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul > li > ul {
+  display: none;
+}
+
+ul > li {
+  margin: 10px 0 10px 0;
+}
