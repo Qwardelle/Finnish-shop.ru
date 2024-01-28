@@ -1,6 +1,7 @@
-const text = document.querySelector(".textA");
-const text1 = document.querySelectorAll("ul > li > ul");
+// let click = document.querySelectorAll(".menu");
 
-text.onclick = function textOnOff() {
-  text1.forEach((elem) => (elem.style.display = "block"));
-};
+// console.log(click);
+
+function click(elem) {
+  console.log(1);
+}
