@@ -11,3 +11,5 @@ menuText.forEach(function clickEvent(i) {
     i.firstElementChild.style.display = "block";
   });
 });
+
+// Проверка
