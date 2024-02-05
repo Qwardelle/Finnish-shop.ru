@@ -1,3 +1,5 @@
+"use strict";
+
 let menuText = document.querySelectorAll(".menu");
 function displayNone() {
   menuText.forEach(function addDisplay(i) {
@@ -13,3 +15,14 @@ menuText.forEach(function clickEvent(i) {
 });
 
 // Проверка
+
+function testFunc() {
+  let a = document.querySelector(this);
+  a.style.display = "none";
+}
+
+function get_this() {
+  return this;
+}
+
+get_this();

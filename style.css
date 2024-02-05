@@ -93,7 +93,7 @@ body {
   grid-template-areas:
     "header  header"
     "aside main"
-    "aside footer";
+    "footer footer";
   grid-template-rows: 100px auto 100px;
   grid-template-columns: 230px 1fr;
 }
