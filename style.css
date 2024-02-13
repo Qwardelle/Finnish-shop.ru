@@ -93,7 +93,7 @@ footer {
   grid-area: footer;
   background-color: white;
   border-radius: 20px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 @media screen and (max-width: 900px) {
@@ -156,6 +156,7 @@ footer {
   top: 10px;
   left: 10px;
   z-index: 100;
+  font-size: 20px;
 }
 
 .card img:hover {
@@ -201,4 +202,9 @@ ul > li > ul {
 
 ul > li {
   margin: 10px 0 10px 0;
+}
+
+footer > h4 {
+  margin: 0;
+  padding: 10px 0 5px 10px;
 }
