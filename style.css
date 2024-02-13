@@ -221,3 +221,6 @@ li img {
   align-items: center;
   flex-wrap: nowrap;
 }
+*/ .menu ul {
+  display: flex;
+}

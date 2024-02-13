@@ -3,7 +3,8 @@
 let menuText = document.querySelectorAll(".menu");
 function displayNone() {
   menuText.forEach(function addDisplay(i) {
-    i.firstElementChild.style.display = "none";
+    // i.firstElementChild.style.display = "none";
+    i.lastElementChild.style.display = "none";
   });
 }
 
@@ -11,6 +12,7 @@ menuText.forEach(function clickEvent(i) {
   i.addEventListener("click", function message() {
     displayNone();
     i.firstElementChild.style.display = "block";
+    i.lastElementChild.style.display = "flex";
   });
 });
 
