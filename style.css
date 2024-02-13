@@ -37,9 +37,11 @@ aside {
   /* height: 400px; */
   align-items: flex-start;
   flex-direction: column;
-  height: fit-content;
+  /* height: 90vh !important; */
+  height: 500px;
   position: sticky;
   top: 10px;
+  overflow-y: scroll;
 }
 
 aside li {
